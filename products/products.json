@@ -1,0 +1,72 @@
+[
+  {
+    "id": "AeHIrLTr6JkxGE6SN-0Rw",
+    "image": "https://picsum.photos/200",
+    "name": "MacDonalds",
+    "food": "burger",
+    "price": 52
+  },
+  {
+    "id": "qdggE76Jtbfd9eWJHrssH",
+    "image": "https://picsum.photos/200",
+    "name": "MacDonalds",
+    "food": "free",
+    "price": 20
+  },
+  {
+    "id": "drsAJ4SHPYqZeG-83QTVW",
+    "image": "https://picsum.photos/200",
+    "name": "MacDonalds",
+    "food": "cheese burger",
+    "price": 60
+  },
+  {
+    "id": "vza2RIzNGIwutCVCs4mCL",
+    "image": "https://picsum.photos/200",
+    "name": "MacDonalds",
+    "food": "cola",
+    "price": 30
+  },
+  {
+    "id": "05olLMgyVQdWRwgKfg5J6",
+    "image": "https://picsum.photos/200",
+    "name": "SmileFood",
+    "food": "shawerma",
+    "price": 85
+  },
+  {
+    "id": "1DEXoP8AuCGYc1YgoQ6hw",
+    "image": "https://picsum.photos/200",
+    "name": "SmileFood",
+    "food": "hotdog",
+    "price": 70
+  },
+  {
+    "id": "Z5sbDlS7pCzNsnAHLtDJd",
+    "image": "https://picsum.photos/200",
+    "name": "WildSandwich",
+    "food": "burger",
+    "price": 50
+  },
+  {
+    "id": "C9sjBfCo4UJCWjzBnOtxl",
+    "image": "https://picsum.photos/200",
+    "name": "WildSandwich",
+    "food": "sandwich",
+    "price": 80
+  },
+  {
+    "id": "e6ywwRe4jcqxXfCZOj_1e",
+    "image": "https://picsum.photos/200",
+    "name": "Donats",
+    "food": "donat",
+    "price": 40
+  },
+  {
+    "id": "rsKkOQUi80UsgVPCcLZZW",
+    "image": "https://picsum.photos/200",
+    "name": "Donats",
+    "food": "choko-donat",
+    "price": 48
+  }
+]
