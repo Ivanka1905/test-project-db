@@ -41,11 +41,6 @@ const addOrderSchema = Joi.object({
       })
     ),
   }),
-  //   myOrder: Joi.array().items(
-  //   Joi.object({
-  //     food: Joi.string(),
-  //     amount: Joi.number()
-  //   })),
 });
 
 module.exports = {

@@ -32,12 +32,6 @@ const orderSchema = Schema(
       cafe: { type: String },
       order: [foodSchema],
     },
-
-    // owner: {
-    //   type: SchemaTypes.ObjectId,
-    //   required: true,
-    //   ref: "users",
-    // },
   },
   { versionKey: false }
 );

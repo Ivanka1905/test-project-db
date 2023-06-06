@@ -3,7 +3,6 @@ const { errorService } = require("../../services");
 const { addOrderSchema } = require("../../schemas/add-order.schems");
 
 async function addOrder(req, res, next) {
-  //   const user = req.user;
   const {
     name,
     email,

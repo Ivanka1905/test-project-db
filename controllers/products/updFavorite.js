@@ -1,11 +1,9 @@
 const { ProdModel } = require("../../models/products.model");
 const { errorService } = require("../../services");
-// const { updateFavoriteSchema } = require("../../shemas");
 
 async function updFavorite(req, res, next) {
   const { id } = req.params;
   const { favorite } = req.body;
-  // const { error } = updateFavoriteSchema.validate({ favorite });
 
   if (!favorite) {
     throw errorService("missing field favorite", 400);
@@ -14,8 +12,7 @@ async function updFavorite(req, res, next) {
     id,
     { favorite },
     { new: true }
-  )
-      .catch(() => {
+  ).catch(() => {
     throw errorService(`Contact id "${req.params.id}" is not correct`, 400);
   });
 

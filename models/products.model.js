@@ -7,25 +7,20 @@ const productSchema = Schema(
       required: [true, "Set name of cafe"],
     },
     food: {
-        type: String,
-        required: [true, "Set name of food"],
-        },
+      type: String,
+      required: [true, "Set name of food"],
+    },
     image: {
-        type: String,
+      type: String,
     },
     price: {
-        type: Number,
-        required: [true, "Set price"],
+      type: Number,
+      required: [true, "Set price"],
     },
     favorite: {
       type: Boolean,
       default: false,
     },
-    // owner: {
-    //   type: SchemaTypes.ObjectId,
-    //   required: true,
-    //   ref: "users",
-    // },
   },
   { versionKey: false }
 );
