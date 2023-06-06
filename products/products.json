@@ -1,72 +1,72 @@
 [
   {
-    "id": "AeHIrLTr6JkxGE6SN-0Rw",
     "image": "https://picsum.photos/200",
-    "name": "MacDonalds",
+    "cafe": "MacDonalds",
     "food": "burger",
-    "price": 52
+    "price": 52,
+    "favorite": false
   },
   {
-    "id": "qdggE76Jtbfd9eWJHrssH",
     "image": "https://picsum.photos/200",
-    "name": "MacDonalds",
+    "cafe": "MacDonalds",
     "food": "free",
-    "price": 20
+    "price": 20,
+    "favorite": false
   },
   {
-    "id": "drsAJ4SHPYqZeG-83QTVW",
     "image": "https://picsum.photos/200",
-    "name": "MacDonalds",
+    "cafe": "MacDonalds",
     "food": "cheese burger",
-    "price": 60
+    "price": 60,
+    "favorite": false
   },
   {
-    "id": "vza2RIzNGIwutCVCs4mCL",
     "image": "https://picsum.photos/200",
-    "name": "MacDonalds",
+    "cafe": "MacDonalds",
     "food": "cola",
-    "price": 30
+    "price": 30,
+    "favorite": false
   },
   {
-    "id": "05olLMgyVQdWRwgKfg5J6",
     "image": "https://picsum.photos/200",
-    "name": "SmileFood",
+    "cafe": "SmileFood",
     "food": "shawerma",
-    "price": 85
+    "price": 85,
+    "favorite": false
   },
   {
-    "id": "1DEXoP8AuCGYc1YgoQ6hw",
     "image": "https://picsum.photos/200",
-    "name": "SmileFood",
+    "cafe": "SmileFood",
     "food": "hotdog",
-    "price": 70
+    "price": 70,
+    "favorite": false
   },
   {
-    "id": "Z5sbDlS7pCzNsnAHLtDJd",
     "image": "https://picsum.photos/200",
-    "name": "WildSandwich",
+    "cafe": "WildSandwich",
     "food": "burger",
-    "price": 50
+    "price": 50,
+    "favorite": false
   },
   {
-    "id": "C9sjBfCo4UJCWjzBnOtxl",
     "image": "https://picsum.photos/200",
-    "name": "WildSandwich",
+    "cafe": "WildSandwich",
     "food": "sandwich",
-    "price": 80
+    "price": 80,
+    "favorite": false
   },
   {
-    "id": "e6ywwRe4jcqxXfCZOj_1e",
     "image": "https://picsum.photos/200",
-    "name": "Donats",
+    "cafe": "Donats",
     "food": "donat",
-    "price": 40
+    "price": 40,
+    "favorite": false
   },
   {
-    "id": "rsKkOQUi80UsgVPCcLZZW",
     "image": "https://picsum.photos/200",
-    "name": "Donats",
+    "cafe": "Donats",
     "food": "choko-donat",
-    "price": 48
+    "price": 48,
+    "favorite": false
   }
 ]

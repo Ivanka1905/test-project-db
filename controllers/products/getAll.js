@@ -1,13 +1,11 @@
-const productsRepository = require('../../products')
+// const productsRepository = require('../../products')
+const { ProdModel } = require("../../models/products.model");
 
 async function getAll(req, res, next) {
-try {
-  const products = await productsRepository.findAll()
-  res.send(products)
+  const products = await ProdModel.find({})
+  // console.log(products)
+  res.json(products)
   // res.json({ message: 'get template message' })
-} catch (error) {
-  next(error)
-}
 }
 
 module.exports = {

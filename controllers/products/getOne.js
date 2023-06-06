@@ -1,20 +1,21 @@
-const productsRepository = require('../../products')
+// const productsRepository = require('../../products')
+const { ProdModel } = require("../../models/products.model");
+const { errorService } = require("../../services");
 
+// const mongoose = require('mongoose')
 async function getOne(req, res, next) {
-  try {
    const {id} = req.params
-    const product = await productsRepository.findOne(id)
+    const product = await ProdModel.findById(id)
+      .catch(() => {
+    throw errorService(`Contact id "${req.params.id}" is not correct`, 400);
+  });
+
     if (product === null) {
       // res.status(404).send({message: "Sorry, not found"})
-      const error = new Error('Sorry, not found')
-      error.code = 404
-      throw error
+       throw errorService("Not found", 404);
     }
   res.send(product)
   // res.json({ message: 'get template message' })
-} catch (error) {
-  next(error)
-}
   // res.json({ message: 'get one template message' })
 }
 
